@@ -1,0 +1,19 @@
+body{
+	background-color:black;
+}
+h1{
+	color:yellow;
+	margin-top:2em;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+p,ul{
+	color:white;
+	font-family:'Kavivanar',cursive;
+	font-size: 1.1em;
+}
+/*a{
+	text-decoration: none;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+}*/

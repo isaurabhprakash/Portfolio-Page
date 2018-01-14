@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Kavivanar' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!-- <script src='https://www.lucasr.com.br/teste/_/js/prefixfree.min.js'></script> -->
+		<script>
+			var onResize = function() {
+			  // apply dynamic padding at the top of the body according to the fixed navbar height
+			  $("body").css("padding-top", $(".navbar-fixed-top").height());
+			};
+
+			// attach the function to the window resize event
+			$(window).resize(onResize);
+
+			// call it also when the page is ready after load or reload
+			$(function() {
+			  onResize();
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="#">Saurabh Prakash</a>
+		    	</div>
+		    	<ul class="nav navbar-nav navbar-right">
+		      		<li><a href="#about">About</a></li>
+		      		<li><a href="#portfolio">Portfolio</a></li>
+		      		<li><a href="#contact">Contact</a></li>
+		    	</ul>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div id="about" style="width:100%;height:100%">
+				<div class="row">
+					<img class="img-responsive col-xs-4" src="me.jpg" style="float:left">
+					<div class="content col-xs-8">
+						<h1>About</h1>
+						<hr align="left" width="20%"/>
+						<p>
+							I am a final year Computer Science student doing my B.E from Sir MVIT, Bangalore. I basically belong to Purnea, Bihar and I am currently residing in Bangalore for pursuing engineering. My interests include Coding, watching movies, reading books, gymming and remaining updated with current affairs. Other than this, I am a foodie too...:)
+						</p><br/>
+						<p>
+							As far as coding is concerned, I mainly code in C++, though I know C,Python and Java too. Most of my codes are available on my GitHub profile. Other than this, I also like Web Development. I've just started with it.
+						</p><br/>
+						<p>
+							You can contact me through my Social Network profiles whose links have been given in the contact section.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="portfolio" style="width:100%;height:100%">
+				<div class="row">
+					<div class="content col-xs-6">
+						<h1>Portfolio</h1>
+						<hr align="left" width="20%"/>
+						<p>
+							Here are some of the projects that I have worked on. Some were done alone by me, and some in collaboration with others.
+							Click on the thumbnail to view the project on Github.
+						</p><br/>
+						<p>
+							These projects include projects that are web-based as well as GUI projects.
+							For Web Based projects, I have used mainly HTML and CSS while for GUI based projects I have used OpenGL, a C++ API, for Dodger and Pygame, a Python module, for Maryo.
+						</p><br/>
+						<p>
+							Other than that I like coding, and my codes are there on my<a href="https://github.com/saurabhprakash-25" target="_blank"> GitHub</a> profile.
+						</p><br/>
+						<ul>
+							<li><a href="https://github.com/saurabhprakash-25/HackerRank" target="_blank">HackerRank</a></li>
+							<li><a href="https://github.com/saurabhprakash-25/Project-Euler" target="_blank">Project Euler</a></li>
+							<li><a href="https://github.com/saurabhprakash-25/Miscellaneous" target="_blank">Miscellaneous</a></li>
+						</ul>
+						<p>
+							Currently, I am undergoing the following courses:
+						</p>
+						<ul>
+							<li>Exploratory Data Analytics Using R</li>
+							<li>Introduction To Social Networks</li>
+							<li>Front End Development Course By FreeCodeCamp</li>
+						</ul>
+					</div>
+					<div class="col-xs-6" style="padding-top:8em;">
+						<div class="col-md-6"><a href="https://github.com/saurabhprakash-25/saurabhprakash-25.github.io" target="_blank"><img src="Website.png" class="img-rounded" alt="Website" style="margin:1em 1em 1em 1em;"></a></div>
+						<div class="col-md-6"><a href="https://github.com/saurabhprakash-25/Maryo" target="_blank"><img src="Maryo.png" class="img-rounded" alt="Maryo" style="margin:1em 1em 1em 1em;"></a></div>
+						<div class="col-md-6"><a href=""><a href="https://github.com/saurabhprakash-25/Richard-Feynman-Tribute-Page" target="_blank"><img src="feynman.png" class="img-rounded" alt="Feynman Tribute Page" style="margin:1em 1em 1em 1em;"></a></div>
+						<div class="col-md-6"><a href="https://github.com/saurabhprakash-25/Dodger" target="_blank"><img src="Dodger.png" class="img-rounded" alt="Dodger" style="margin:1em 1em 1em 1em;"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+ 
+ 		<div id="contact" style="padding-top:1.5em;width:100%;height: 100%;">
+			<h1 class="text-center">Contact Me</h1>
+			<hr align="center" width="20%"/>
+			<p class="text-center">
+				So now that you want to contact me, you can do so through my Social Network Profile.<br/><br/>
+				I am present on Github, LinkedIn,Facebook, Instagram, Twitter and Quora.<br/><br/>
+				Below are the links to my Social Network profiles<br/>
+			</p>
+			<br/><br/>
+			<div align="center">
+			<a href="https://www.linkedin.com/in/saurabhprakash-25/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:4em;color:yellow;"></i></a>
+			<a href="https://github.com/saurabhprakash-25" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size:4em;color:yellow;"></i></a>
+			<a href="https://www.facebook.com/spiamcool" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size:4em;color:yellow;"></i></a>
+			<a href="https://instagram.com/saurabhprakash_25" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size:4em;color:yellow;"></i></a>
+			<a href="https://twitter.com/saurabh_rishu" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size:4em;color:yellow;"></i></a>
+		</div><br/><br/><br/><br/><br/><br/><br/><br/>
+				<p class="text-center">Written and Coded by <a href="http://saurabhprakash.me" target="_blank">Saurabh Prakash</a></p>	
+	</body>
+</html>
